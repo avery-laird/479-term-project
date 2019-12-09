@@ -1,0 +1,31 @@
+= LLVM+Clang 8.0.0 -- official release
+
+Downloaded from http://releases.llvm.org/download.html#8.0.0
+
+Included components:
+$ sha256sum *.tar.xz
+084c115aab0084e63b23eee8c233abb6739c399e29966eaeccfc6e088e0b736b  cfe-8.0.0.src.tar.xz
+b435c7474f459e71b2831f1a4e3f1d21203cb9c0172e94e9d9b69f50354f21b1  compiler-rt-8.0.0.src.tar.xz
+c2902675e7c84324fb2c1e45489220f250ede016cc3117186785d9dc291f9de2  libcxx-8.0.0.src.tar.xz
+c2d6de9629f7c072ac20ada776374e9e3168142f20a46cdb9d6df973922b07cd  libcxxabi-8.0.0.src.tar.xz
+8872be1b12c61450cacc82b3d153eab02be2546ef34fa3580ed14137bb26224c  llvm-8.0.0.src.tar.xz
+f7b1705d2f16c4fc23d6531f67d2dd6fb78a077dd346b02fed64f4b8df65c9d5  openmp-8.0.0.src.tar.xz
+
+Script to build the archive:
+
+tar xf llvm-8.0.0.src.tar.xz
+cd llvm-8.0.0.src/tools/
+tar xf ../../cfe-8.0.0.src.tar.xz
+mv cfe-8.0.0.src/ clang
+cd ../projects/
+tar xf ../../compiler-rt-8.0.0.src.tar.xz
+mv compiler-rt-8.0.0.src/ compiler-rt
+tar xf ../../libcxx-8.0.0.src.tar.xz
+mv libcxx-8.0.0.src/ libcxx
+tar xf ../../libcxxabi-8.0.0.src.tar.xz
+mv libcxxabi-8.0.0.src/ libcxxabi
+tar xf ../../openmp-8.0.0.src.tar.xz
+mv openmp-8.0.0.src/ openmp
+cd ../..
+mv llvm-8.0.0.src llvm
+tar cJ llvm > llvm_clang_compiler-rt_libcxx_libcxxabi_openmp-8.0.0.tar.xz
