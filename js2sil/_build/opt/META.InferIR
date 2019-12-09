@@ -1,0 +1,30 @@
+description = ""
+requires = "ANSITerminal
+            InferBase
+            apron
+            apron.octMPQ
+            async
+            atdgen
+            base
+            base64
+            cmdliner
+            core
+            elina
+            javalib
+            mtime.clock.os
+            oUnit
+            ocamlgraph
+            parmap
+            ppx_compare.runtime-lib
+            sawja
+            sqlite3
+            str
+            unix
+            xmlm
+            yojson
+            zarith
+            zip"
+archive(byte) = "InferIR.cma"
+archive(native) = "InferIR.cmxa"
+plugin(byte) = "InferIR.cma"
+plugin(native) = "InferIR.cmxs"

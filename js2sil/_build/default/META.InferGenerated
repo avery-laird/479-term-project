@@ -1,0 +1,6 @@
+description = ""
+requires = "atdgen core ppx_compare.runtime-lib"
+archive(byte) = "InferGenerated.cma"
+archive(native) = "InferGenerated.cmxa"
+plugin(byte) = "InferGenerated.cma"
+plugin(native) = "InferGenerated.cmxs"

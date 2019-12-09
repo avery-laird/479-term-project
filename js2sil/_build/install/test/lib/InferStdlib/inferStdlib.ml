@@ -1,0 +1,1 @@
+../../../../test/istd/inferStdlib.ml-gen

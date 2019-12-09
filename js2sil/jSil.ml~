@@ -1,0 +1,97 @@
+open Parser_flow
+open InferIR
+open InferBase
+open InferStdlib
+open Stdlib
+
+
+let matchVariableDecl declaration =
+  match declaration with
+  | {
+      Ast.Statement.VariableDeclaration.declarations=declaration_list;
+      Ast.Statement.VariableDeclaration.kind=def_kind
+    } -> let name = None
+    in
+    let typ = None
+    in
+    let init = None
+    in
+    Some (name, typ, init)
+  | _ -> None
+    
+
+   
+let generate_ir x =
+  match x with
+  | (_, Ast.Statement.VariableDeclaration declaration) ->
+    
+    
+      match declaration_list with
+      | (_, {id; init}) ->
+        match id with
+        | (_, Ast.Pattern.Identifier iden) ->
+          match iden with
+          | {name; _; _} -> 
+            match name with
+            | (_, str) -> 
+            | _ -> None
+          | _ -> None
+        | _ -> None
+      | _ -> None
+    | _ -> None
+  | _ -> None
+
+
+  
+  | (_, Ast.Statement.VariableDeclaration {
+      declarations=[
+        (_,
+         {
+           Ast.Statement.VariableDeclaration.Declarator.id=id; (* 'M Ast.Pattern.t *)
+           Ast.Statement.VariableDeclaration.Declarator.init=init; (* 'M Ast.Expression.t option *)
+         }
+        )
+      ];
+      kind=Ast.Statement.VariableDeclaration.Let
+    }) -> let var_name =
+            match id with
+            | (_, Ast.Pattern.Identifier
+  | _ -> Sil.Load {
+      id=Ident.create_normal (Ident.string_to_name "x") 0;
+      e =Exp.Const (Const.Cint (IntLit.of_int 1));
+      root_typ= {
+        Typ.desc=Typ.Tint Typ.IInt;
+        Typ.quals=Typ.mk_type_quals ()
+      };
+      typ= {
+        Typ.desc=Typ.Tint Typ.IInt;
+        Typ.quals=Typ.mk_type_quals ()
+      };
+      loc={
+        line= -1;
+        col = -1;
+        file=SourceFile.create "test"
+      }
+    }
+        
+
+let () =
+  let (prog, _) =
+    program "let x = 1;"
+  in
+  let (_, statement_list, _) =
+    prog
+  in
+  let ir_list =
+    List.map
+      (generate_ir)
+      statement_list
+  in
+  List.iter
+    (fun x ->
+       Sil.pp_instr
+         ~print_types:true
+         Pp.text_break
+         Format.std_formatter x
+    ) ir_list
+  

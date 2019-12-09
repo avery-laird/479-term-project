@@ -1,0 +1,5 @@
+;; 
+(executable
+ (name jSil)
+ (libraries sedlex wtf8 flow_parser InferIR camlidl)
+ (preprocess (pps ppx_jane)))

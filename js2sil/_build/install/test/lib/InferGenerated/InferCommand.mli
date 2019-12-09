@@ -1,0 +1,1 @@
+../../../../test/atd/InferCommand.mli

@@ -1,0 +1,128 @@
+(** @canonical InferIR.AccessPath *)
+module AccessPath = InferIR__AccessPath
+
+(** @canonical InferIR.Annot *)
+module Annot = InferIR__Annot
+
+(** @canonical InferIR.Attributes *)
+module Attributes = InferIR__Attributes
+
+(** @canonical InferIR.BUILTINS *)
+module BUILTINS = InferIR__BUILTINS
+
+(** @canonical InferIR.Binop *)
+module Binop = InferIR__Binop
+
+(** @canonical InferIR.BuiltinDecl *)
+module BuiltinDecl = InferIR__BuiltinDecl
+
+(** @canonical InferIR.CallFlags *)
+module CallFlags = InferIR__CallFlags
+
+(** @canonical InferIR.CallSite *)
+module CallSite = InferIR__CallSite
+
+(** @canonical InferIR.Cfg *)
+module Cfg = InferIR__Cfg
+
+(** @canonical InferIR.ClangMethodKind *)
+module ClangMethodKind = InferIR__ClangMethodKind
+
+(** @canonical InferIR.Const *)
+module Const = InferIR__Const
+
+(** @canonical InferIR.DecompiledExp *)
+module DecompiledExp = InferIR__DecompiledExp
+
+(** @canonical InferIR.DotCfg *)
+module DotCfg = InferIR__DotCfg
+
+(** @canonical InferIR.Errlog *)
+module Errlog = InferIR__Errlog
+
+(** @canonical InferIR.Exceptions *)
+module Exceptions = InferIR__Exceptions
+
+(** @canonical InferIR.Exp *)
+module Exp = InferIR__Exp
+
+(** @canonical InferIR.Filtering *)
+module Filtering = InferIR__Filtering
+
+(** @canonical InferIR.HilExp *)
+module HilExp = InferIR__HilExp
+
+(** @canonical InferIR.HilInstr *)
+module HilInstr = InferIR__HilInstr
+
+(** @canonical InferIR.Ident *)
+module Ident = InferIR__Ident
+
+(** @canonical InferIR.Instrs *)
+module Instrs = InferIR__Instrs
+
+(** @canonical InferIR.IntLit *)
+module IntLit = InferIR__IntLit
+
+(** @canonical InferIR.Io_infer *)
+module Io_infer = InferIR__Io_infer
+
+(** @canonical InferIR.IssueLog *)
+module IssueLog = InferIR__IssueLog
+
+(** @canonical InferIR.Localise *)
+module Localise = InferIR__Localise
+
+(** @canonical InferIR.Mangled *)
+module Mangled = InferIR__Mangled
+
+(** @canonical InferIR.Mleak_buckets *)
+module Mleak_buckets = InferIR__Mleak_buckets
+
+(** @canonical InferIR.Objc_models *)
+module Objc_models = InferIR__Objc_models
+
+(** @canonical InferIR.PredSymb *)
+module PredSymb = InferIR__PredSymb
+
+(** @canonical InferIR.ProcAttributes *)
+module ProcAttributes = InferIR__ProcAttributes
+
+(** @canonical InferIR.Procdesc *)
+module Procdesc = InferIR__Procdesc
+
+(** @canonical InferIR.ProcnameDispatcher *)
+module ProcnameDispatcher = InferIR__ProcnameDispatcher
+
+(** @canonical InferIR.Pvar *)
+module Pvar = InferIR__Pvar
+
+(** @canonical InferIR.QualifiedCppName *)
+module QualifiedCppName = InferIR__QualifiedCppName
+
+(** @canonical InferIR.Sil *)
+module Sil = InferIR__Sil
+
+(** @canonical InferIR.SourceFiles *)
+module SourceFiles = InferIR__SourceFiles
+
+(** @canonical InferIR.SpecializeProcdesc *)
+module SpecializeProcdesc = InferIR__SpecializeProcdesc
+
+(** @canonical InferIR.Subtype *)
+module Subtype = InferIR__Subtype
+
+(** @canonical InferIR.Tenv *)
+module Tenv = InferIR__Tenv
+
+(** @canonical InferIR.Typ *)
+module Typ = InferIR__Typ
+
+(** @canonical InferIR.Unop *)
+module Unop = InferIR__Unop
+
+(** @canonical InferIR.Var *)
+module Var = InferIR__Var
+
+(** @canonical InferIR.WeakTopologicalOrder *)
+module WeakTopologicalOrder = InferIR__WeakTopologicalOrder

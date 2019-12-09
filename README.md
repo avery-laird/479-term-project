@@ -1,0 +1,1 @@
+The directory `js2sil` contains source code for generating Infer IR from the simple JavaScript example described in the project report. The directory `infer-custom` contains a custom version of Infer, which includes the changes to the build system described in the report.

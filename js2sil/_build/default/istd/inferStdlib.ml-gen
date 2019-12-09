@@ -1,0 +1,56 @@
+(** @canonical InferStdlib.ARList *)
+module ARList = InferStdlib__ARList
+
+(** @canonical InferStdlib.Escape *)
+module Escape = InferStdlib__Escape
+
+(** @canonical InferStdlib.GOption *)
+module GOption = InferStdlib__GOption
+
+(** @canonical InferStdlib.IContainer *)
+module IContainer = InferStdlib__IContainer
+
+(** @canonical InferStdlib.IExn *)
+module IExn = InferStdlib__IExn
+
+(** @canonical InferStdlib.IList *)
+module IList = InferStdlib__IList
+
+(** @canonical InferStdlib.IOption *)
+module IOption = InferStdlib__IOption
+
+(** @canonical InferStdlib.ISequence *)
+module ISequence = InferStdlib__ISequence
+
+(** @canonical InferStdlib.IStd *)
+module IStd = InferStdlib__IStd
+
+(** @canonical InferStdlib.ImperativeUnionFind *)
+module ImperativeUnionFind = InferStdlib__ImperativeUnionFind
+
+(** @canonical InferStdlib.IntSet *)
+module IntSet = InferStdlib__IntSet
+
+(** @canonical InferStdlib.MaximumSharing *)
+module MaximumSharing = InferStdlib__MaximumSharing
+
+(** @canonical InferStdlib.PartialOrder *)
+module PartialOrder = InferStdlib__PartialOrder
+
+(** @canonical InferStdlib.PhysEqual *)
+module PhysEqual = InferStdlib__PhysEqual
+
+(** @canonical InferStdlib.PolyVariantEqual *)
+module PolyVariantEqual = InferStdlib__PolyVariantEqual
+
+(** @canonical InferStdlib.Pp *)
+module Pp = InferStdlib__Pp
+
+(** @canonical InferStdlib.PrettyPrintable *)
+module PrettyPrintable = InferStdlib__PrettyPrintable
+
+(** @canonical InferStdlib.SpecialChars *)
+module SpecialChars = InferStdlib__SpecialChars
+
+(** @canonical InferStdlib.StatisticsToolbox *)
+module StatisticsToolbox = InferStdlib__StatisticsToolbox

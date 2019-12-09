@@ -1,0 +1,133 @@
+(lang dune 1.11)
+(name InferStdlib)
+(library
+ (name InferStdlib)
+ (kind normal)
+ (archives (byte InferStdlib.cma) (native InferStdlib.cmxa))
+ (plugins (byte InferStdlib.cma) (native InferStdlib.cmxs))
+ (foreign_archives (native InferStdlib.a))
+ (requires
+  ppx_compare.runtime-lib
+  javalib
+  sawja
+  ANSITerminal
+  apron
+  apron.octMPQ
+  async
+  atdgen
+  base
+  base64
+  cmdliner
+  core
+  elina
+  mtime.clock.os
+  ocamlgraph
+  oUnit
+  parmap
+  sqlite3
+  str
+  unix
+  xmlm
+  yojson
+  zarith
+  zip)
+ (main_module_name InferStdlib)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name InferStdlib)
+   (modules
+    ((name ARList)
+     (obj_name inferStdlib__ARList)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name Escape)
+     (obj_name inferStdlib__Escape)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name GOption)
+     (obj_name inferStdlib__GOption)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name IContainer)
+     (obj_name inferStdlib__IContainer)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name IExn)
+     (obj_name inferStdlib__IExn)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name IList)
+     (obj_name inferStdlib__IList)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name IOption)
+     (obj_name inferStdlib__IOption)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name ISequence)
+     (obj_name inferStdlib__ISequence)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name IStd) (obj_name inferStdlib__IStd) (visibility public) (impl))
+    ((name ImperativeUnionFind)
+     (obj_name inferStdlib__ImperativeUnionFind)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name IntSet)
+     (obj_name inferStdlib__IntSet)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name MaximumSharing)
+     (obj_name inferStdlib__MaximumSharing)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name PartialOrder)
+     (obj_name inferStdlib__PartialOrder)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name PhysEqual)
+     (obj_name inferStdlib__PhysEqual)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name PolyVariantEqual)
+     (obj_name inferStdlib__PolyVariantEqual)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name Pp) (obj_name inferStdlib__Pp) (visibility public) (impl) (intf))
+    ((name PrettyPrintable)
+     (obj_name inferStdlib__PrettyPrintable)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name SpecialChars)
+     (obj_name inferStdlib__SpecialChars)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name StatisticsToolbox)
+     (obj_name inferStdlib__StatisticsToolbox)
+     (visibility public)
+     (impl)
+     (intf)))
+   (alias_module
+    (name InferStdlib)
+    (obj_name inferStdlib)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))

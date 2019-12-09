@@ -1,0 +1,29 @@
+description = ""
+requires = "ANSITerminal
+            apron
+            apron.octMPQ
+            async
+            atdgen
+            base
+            base64
+            cmdliner
+            core
+            elina
+            javalib
+            mtime.clock.os
+            oUnit
+            ocamlgraph
+            parmap
+            ppx_compare.runtime-lib
+            sawja
+            sqlite3
+            str
+            unix
+            xmlm
+            yojson
+            zarith
+            zip"
+archive(byte) = "InferStdlib.cma"
+archive(native) = "InferStdlib.cmxa"
+plugin(byte) = "InferStdlib.cma"
+plugin(native) = "InferStdlib.cmxs"

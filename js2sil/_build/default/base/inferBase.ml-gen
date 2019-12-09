@@ -1,0 +1,104 @@
+(** @canonical InferBase.ClangProc *)
+module ClangProc = InferBase__ClangProc
+
+(** @canonical InferBase.CommandDoc *)
+module CommandDoc = InferBase__CommandDoc
+
+(** @canonical InferBase.CommandLineOption *)
+module CommandLineOption = InferBase__CommandLineOption
+
+(** @canonical InferBase.Config *)
+module Config = InferBase__Config
+
+(** @canonical InferBase.CostIssues *)
+module CostIssues = InferBase__CostIssues
+
+(** @canonical InferBase.CostKind *)
+module CostKind = InferBase__CostKind
+
+(** @canonical InferBase.DB *)
+module DB = InferBase__DB
+
+(** @canonical InferBase.DBWriter *)
+module DBWriter = InferBase__DBWriter
+
+(** @canonical InferBase.Die *)
+module Die = InferBase__Die
+
+(** @canonical InferBase.Epilogues *)
+module Epilogues = InferBase__Epilogues
+
+(** @canonical InferBase.EventLogger *)
+module EventLogger = InferBase__EventLogger
+
+(** @canonical InferBase.FileDiff *)
+module FileDiff = InferBase__FileDiff
+
+(** @canonical InferBase.ForkUtils *)
+module ForkUtils = InferBase__ForkUtils
+
+(** @canonical InferBase.IssueType *)
+module IssueType = InferBase__IssueType
+
+(** @canonical InferBase.JsonBuilder *)
+module JsonBuilder = InferBase__JsonBuilder
+
+(** @canonical InferBase.Language *)
+module Language = InferBase__Language
+
+(** @canonical InferBase.Location *)
+module Location = InferBase__Location
+
+(** @canonical InferBase.Logging *)
+module Logging = InferBase__Logging
+
+(** @canonical InferBase.MarkupFormatter *)
+module MarkupFormatter = InferBase__MarkupFormatter
+
+(** @canonical InferBase.PerfEvent *)
+module PerfEvent = InferBase__PerfEvent
+
+(** @canonical InferBase.PolyFields *)
+module PolyFields = InferBase__PolyFields
+
+(** @canonical InferBase.Process *)
+module Process = InferBase__Process
+
+(** @canonical InferBase.ProcessPool *)
+module ProcessPool = InferBase__ProcessPool
+
+(** @canonical InferBase.ProcessPoolState *)
+module ProcessPoolState = InferBase__ProcessPoolState
+
+(** @canonical InferBase.ResultsDatabase *)
+module ResultsDatabase = InferBase__ResultsDatabase
+
+(** @canonical InferBase.ResultsDir *)
+module ResultsDir = InferBase__ResultsDir
+
+(** @canonical InferBase.RunState *)
+module RunState = InferBase__RunState
+
+(** @canonical InferBase.Serialization *)
+module Serialization = InferBase__Serialization
+
+(** @canonical InferBase.SourceFile *)
+module SourceFile = InferBase__SourceFile
+
+(** @canonical InferBase.SqliteUtils *)
+module SqliteUtils = InferBase__SqliteUtils
+
+(** @canonical InferBase.SymOp *)
+module SymOp = InferBase__SymOp
+
+(** @canonical InferBase.TaskBar *)
+module TaskBar = InferBase__TaskBar
+
+(** @canonical InferBase.Utils *)
+module Utils = InferBase__Utils
+
+(** @canonical InferBase.Version *)
+module Version = InferBase__Version
+
+(** @canonical InferBase.ZipLib *)
+module ZipLib = InferBase__ZipLib

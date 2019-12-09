@@ -1,0 +1,38 @@
+(** @canonical InferGenerated.Clang_profiler_samples_j *)
+module Clang_profiler_samples_j = InferGenerated__Clang_profiler_samples_j
+
+(** @canonical InferGenerated.Clang_profiler_samples_t *)
+module Clang_profiler_samples_t = InferGenerated__Clang_profiler_samples_t
+
+(** @canonical InferGenerated.InferCommand *)
+module InferCommand = InferGenerated__InferCommand
+
+(** @canonical InferGenerated.Java_method_decl_j *)
+module Java_method_decl_j = InferGenerated__Java_method_decl_j
+
+(** @canonical InferGenerated.Java_method_decl_t *)
+module Java_method_decl_t = InferGenerated__Java_method_decl_t
+
+(** @canonical InferGenerated.Java_profiler_samples_j *)
+module Java_profiler_samples_j = InferGenerated__Java_profiler_samples_j
+
+(** @canonical InferGenerated.Java_profiler_samples_t *)
+module Java_profiler_samples_t = InferGenerated__Java_profiler_samples_t
+
+(** @canonical InferGenerated.Jsonbug_j *)
+module Jsonbug_j = InferGenerated__Jsonbug_j
+
+(** @canonical InferGenerated.Jsonbug_t *)
+module Jsonbug_t = InferGenerated__Jsonbug_t
+
+(** @canonical InferGenerated.Perf_profiler_j *)
+module Perf_profiler_j = InferGenerated__Perf_profiler_j
+
+(** @canonical InferGenerated.Perf_profiler_t *)
+module Perf_profiler_t = InferGenerated__Perf_profiler_t
+
+(** @canonical InferGenerated.Runstate_j *)
+module Runstate_j = InferGenerated__Runstate_j
+
+(** @canonical InferGenerated.Runstate_t *)
+module Runstate_t = InferGenerated__Runstate_t

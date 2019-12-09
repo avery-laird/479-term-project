@@ -1,0 +1,17 @@
+Annot
+Binop
+CallFlags
+ClangMethodKind
+Const
+DecompiledExp
+Ident
+InferIR
+IntLit
+Mangled
+PredSymb
+Pvar
+QualifiedCppName
+Subtype
+Tenv
+Typ
+Unop
